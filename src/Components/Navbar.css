@@ -1,0 +1,23 @@
+.nav-container {
+    display: inline;
+    margin: auto;
+}
+.button {
+    background-color:red;
+    float:right;
+    color: white;
+    border: 1px solid rgb(177, 11, 11);
+    padding: 5px;
+    display:inline;
+}
+
+img {
+    display:inline;
+}
+
+#search {
+    max-width: 20%;
+    margin: auto;
+    border: 1px solid blue;
+    display:inline;
+}
