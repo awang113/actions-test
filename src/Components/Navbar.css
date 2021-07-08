@@ -1,23 +1,39 @@
-.nav-container {
+.navbar {
     display: inline;
-    margin: auto;
 }
-.button {
+#talk-to-expert {
     background-color:red;
-    float:right;
     color: white;
     border: 1px solid rgb(177, 11, 11);
-    padding: 5px;
-    display:inline;
+    display:inline-block;
 }
 
-img {
-    display:inline;
+#logo {
+    margin-left: 5%;
+}
+
+#logo-img {
+    height: 30px;
+    width: auto;
+    display: inline;
 }
 
 #search {
-    max-width: 20%;
-    margin: auto;
-    border: 1px solid blue;
-    display:inline;
+    display: inline;
+    padding: 30px;
+    margin: 50px;
+}
+
+#search-bar {
+    height: 30px;
+    min-width: 1000px;
+    background-color: rgba(236, 236, 236, 0.959);
+    border:none;
+    font-size: 110%;
+}
+
+#submit-button {
+    height: 30px;
+    border:none;
+    background-color:lightgrey;
 }
