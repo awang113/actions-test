@@ -22,9 +22,9 @@ function App() {
       <div className="app">
         <SectionHeader name="SDK Tools" desc="We offer a rich array of SDKs to help you customize, extend, integrate, and embed the power and functionality of MicroStrategy analytics into your Web and Mobile applications." />
         <div className="buttons">
-          <SDKButton name="REST API" link="https://www2.microstrategy.com/producthelp/Current/RESTSDK/Content/topics/REST_API/REST_API.htm" desc="A RESTful application designed to help developers build data-driven client applications quickly and easily." />
-          <SDKButton name="Embedding SDK" />
-          <SDKButton name="Python SDK" />
+          <SDKButton name="REST API" link="https://github.microstrategy.com/pages/mshaffer/mstr-docs/" desc="A RESTful application designed to help developers build data-driven client applications quickly and easily." color="orange"/>
+          <SDKButton name="Embedding SDK" link="https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/EmbeddingSDK/default.htm" desc="Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files." color="blue"/>
+          <SDKButton name="Python SDK" link="https://www2.microstrategy.com/producthelp/Current/mstrio-py/" desc="not much text" color="#000000"/>
           <SDKButton name="Mobile SDK" />
           <SDKButton name="Visualization SDK" />
           <SDKButton name="Library SDK" />
