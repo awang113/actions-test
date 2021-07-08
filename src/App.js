@@ -5,6 +5,8 @@ import Navbar from './Components/Navbar.js'
 import SDKButton from './Components/SDKButton';
 import SectionHeader from './Components/SectionHeader';
 import APIButton from './Components/APIButton';
+import MoreButton from './Components/MoreButton';
+import ExpertButton from './Components/ExpertButton';
 
 function App() {
   const whatsnew = "https://www2.microstrategy.com/producthelp/Current/Readme/en-us/content/whats_new.htm";
@@ -42,7 +44,14 @@ function App() {
           <APIButton name="Identity SDK" />
         </div>
         <SectionHeader name="Courses" desc="Learn more about how to use our SDK products through our community videos!" />
+        <MoreButton name="See more courses" />
         <SectionHeader name="Talk to an expert" desc="Browse our directory of developer experts recognized by MicroStrategy for their skills." />
+        <div className="buttons">
+          <ExpertButton name="Nahia Colunga" desc="MicroStrategy Consultant" src="dogs_1280p_0.jpeg" link=""/>
+          <ExpertButton name="Christopher Longoria" desc="MicroStrategy Consultant" link=""/>
+          <ExpertButton name="Herse Hedman" desc="MicroStrategy Consultant" link=""/>
+        </div>
+        <MoreButton name="See more experts"/>
       </div>
     </div>
   );

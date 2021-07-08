@@ -1,12 +1,7 @@
 .navbar {
     display: inline;
 }
-#talk-to-expert {
-    background-color:red;
-    color: white;
-    border: 1px solid rgb(177, 11, 11);
-    display:inline-block;
-}
+
 
 #logo {
     margin-left: 5%;
@@ -32,8 +27,16 @@
     font-size: 110%;
 }
 
-#submit-button {
+/* #submit-button {
     height: 30px;
     border:none;
     background-color:lightgrey;
+} */
+
+#talk-to-expert {
+    background-color:red;
+    color: white;
+    border: 1px solid rgb(177, 11, 11);
+    display:inline-block;
+    overflow: hidden; /* what does this even do */
 }

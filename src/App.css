@@ -1,3 +1,15 @@
+button:hover,
+button:focus,
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: none;
+}
+
+text {
+    font-family: myriad-pro,"Myriad Pro","Open Sans",Arial,sans-serif;
+}
+
 .welcome {
     background: linear-gradient(purple, rgb(219, 136, 219));
     /* background-image: url(dogs_1280p_0.jpeg); */
@@ -18,6 +30,10 @@
     border: 1px solid white;
 }
 
+#whatsnew:hover {
+    color: rgb(228, 216, 216);
+}
+
 .buttons {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -34,16 +50,3 @@
     margin-top: auto;
 }
 
-button:hover,
-button:focus,
-a:hover,
-a:focus {
-  color: /*#cf2828*/#23527c;
-  text-decoration: none;
-}
-a.disable,
-a.disable:hover {
-  text-decoration: none;
-  cursor: default;
-  color: #000000;
-}
