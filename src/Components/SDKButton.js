@@ -5,7 +5,7 @@ function SDKButton(props) {
     return (
         <button className="sdk-button" onClick={function() {window.location = props.link;}}>
             <h2 class="sdk-name">{props.name}</h2>
-            <hr class="break" style={{ color: props.color }}></hr>
+            <hr style={{ borderColor: props.color }}></hr>
             <p class="sdk-desc">{props.desc}</p>
         </button>
     );

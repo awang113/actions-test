@@ -8,7 +8,7 @@
 }
 
 #logo-img {
-    height: 30px;
+    height: 25px;
     width: auto;
     display: inline;
 }
@@ -21,7 +21,8 @@
 
 #search-bar {
     height: 30px;
-    min-width: 1000px;
+    width: 50%;
+    flex: 1;
     background-color: rgba(236, 236, 236, 0.959);
     border:none;
     font-size: 110%;
@@ -37,6 +38,10 @@
     background-color:red;
     color: white;
     border: 1px solid rgb(177, 11, 11);
-    display:inline-block;
-    overflow: hidden; /* what does this even do */
+    display:none;
+    padding: 10px;
+}
+
+@media screen and (min-width: 950px) {
+    #talk-to-expert { display: inline-block; }
 }

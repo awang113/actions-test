@@ -1,5 +1,4 @@
-button:hover,
-button:focus,
+
 a:hover,
 a:focus {
   color: #23527c;
@@ -11,7 +10,7 @@ text {
 }
 
 .welcome {
-    background: linear-gradient(purple, rgb(219, 136, 219));
+    background: linear-gradient(rgb(223, 76, 223), rgb(240, 166, 240));
     /* background-image: url(dogs_1280p_0.jpeg); */
     padding-top: 2%;
     padding-bottom: 5%;
@@ -30,15 +29,18 @@ text {
     border: 1px solid white;
 }
 
-#whatsnew:hover {
-    color: rgb(228, 216, 216);
-}
-
 .buttons {
     display: grid;
-    grid-template-columns: auto auto auto;
-    width: 70%;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    width: 100%;
     margin: auto;
+}
+
+button:hover,
+button:focus {
+    transform: scale(1.05) perspective(1px);
+    box-shadow: 2px 3px 5px 0 rgb(0 0 0 / 15%); 
 }
 
 .headers {
@@ -46,7 +48,5 @@ text {
 }
 
 .app {
-    margin: 200px;
-    margin-top: auto;
+    margin: auto 15%;
 }
-
