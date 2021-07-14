@@ -22,7 +22,6 @@
 #search-bar {
     height: 30px;
     width: 50%;
-    flex: 1;
     background-color: rgba(236, 236, 236, 0.959);
     border:none;
     font-size: 110%;
@@ -42,6 +41,6 @@
     padding: 10px;
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1100px) {
     #talk-to-expert { display: inline-block; }
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Navbar.css'; //tell the page that we're using the Navbar.css stylesheet
+import './Navbar.css';
 
 class Navbar extends React.Component {
     constructor(props) {
@@ -23,7 +23,7 @@ class Navbar extends React.Component {
         return (
             <div className="navbar">
                 <a href="https://www.microstrategy.com" id="logo">
-                    <img src="ms-logo.png" alt="MicroStrategy Logo" id="logo-img" />
+                    <img src='./ms-logo.png' alt="MicroStrategy Logo" id="logo-img" />
                 </a>
                 <form onSubmit={this.handleSubmit} id="search">
                     <input type='text' placeholder="Search MicroStrategy Community" value={this.state.value} onChange={this.handleChange} id="search-bar" />
