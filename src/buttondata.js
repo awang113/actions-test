@@ -4,7 +4,7 @@ export const sdk =
             "name": "REST API",
             "link": "https://github.microstrategy.com/pages/mshaffer/mstr-docs/",
             "desc" : "A RESTful application designed to help developers build data-driven client applications quickly and easily.",
-            "color": "blue"
+            "color": "red"
         },
         {
             "name": "Embedding SDK",
@@ -15,32 +15,38 @@ export const sdk =
         {
             "name": "Python SDK",
             "link": "https://www2.microstrategy.com/producthelp/Current/mstrio-py/",
-            "desc": "not much text",
+            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
             "color": "green"
         },
         {
             "name": "Mobile SDK",
-            "color": "purple"
+            "color": "purple",
+            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
         },
         {
             "name": "Visualization SDK",
-            "color": "pink"
+            "color": "pink",
+            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
         },
         {
             "name": "Library SDK",
-            "color": "lightblue"
+            "color": "lightblue",
+            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
         },
         {
             "name": "Data Connector SDK",
-            "color": "red"
+            "color": "blue",
+            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
         },
         {
             "name": "Library Mobile SDK",
-            "color": "yellow"
+            "color": "yellow",
+            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
         },
         {
             "name": "Web SDK",
-            "color": "brown"
+            "color": "brown",
+            "desc": "Quickly integrate a MicroStrategy dossier into a web application with functionality such as controlling navigation, retrieving, and applying files.",
         }
     ]
 
@@ -49,7 +55,7 @@ export const api =
     {
         "name": "Rest API",
         "link": "https://demo.microstrategy.com/MicroStrategyLibrary/api-docs/#/",
-        "color": "blue"
+        "color": "red"
     },
     {
         "name": "Library SDK",
@@ -61,7 +67,7 @@ export const api =
     },
     {
         "name": "Data Connector SDK",
-        "color": "red"
+        "color": "blue"
     },
     {
         "name": "Mobile SDK",

@@ -11,9 +11,6 @@ import APIButton from './Components/APIButton';
 import MoreButton from './Components/MoreButton';
 import ExpertButton from './Components/ExpertButton';
 import CourseButton from './Components/CourseButton';
-import dogs from './dogs.jpeg';
-import dwayne from './dwayne.jpg';
-import selena from './selena.jpeg';
 
 function App() {
   const whatsnew = "https://www2.microstrategy.com/producthelp/Current/Readme/en-us/content/whats_new.htm";
@@ -61,7 +58,7 @@ function App() {
         <SectionHeader name="Courses" desc="Learn more about how to use our SDK products through our community videos!" />
         <div className="buttons">
           {
-            courses.map((data, key) => {
+            courses.map((data) => {
               return (
                 <CourseButton
                   name={data.name}
@@ -73,7 +70,7 @@ function App() {
             })
           }
         </div>
-        <MoreButton name="See more courses" link=""/>
+        <MoreButton name="See more courses" link="https://www.microstrategy.com/en/education"/>
         <SectionHeader name="Talk to an expert" desc="Browse our directory of developer experts recognized by MicroStrategy for their skills." />
         <div className="buttons">
           {
