@@ -76,13 +76,40 @@ export const api =
 export const courses =
 [
     {
-        "name": "Pfizer Success Spotlight",
+        "name": "Data, BI, and Analytics Trend Monitor",
         "desc": "January 17, 2021",
         "link": "https://www.microstrategy.com/en/resources/events/world-2021/on-demand/pfizer-success-spotlight",
-        "src": "thumbnail1"
+        "src": "https://www.microstrategy.com/content/dam/website-assets/website-images/thumbnails/research-and-reports/data-bi-and-analytics-trend-monitor-2021.jpg"
+    },
+    {
+        "name": "HyperIntelligence at a Glance",
+        "desc": "March 2, 2018",
+        "link": "https://www.microstrategy.com/en/hyperintelligence/video/moving-from-hyperintelligent-to-hyperproductive",
+        "src": "https://www.microstrategy.com/content/dam/website-assets/website-images/thumbnails/homepage/hyperintelligence-at-a-glance_thumbnail.jpg"
+    },
+    {
+        "name": "Embedded Analytics Platform Overview",
+        "desc": "April 1, 2020",
+        "link": "https://www.microstrategy.com/en/business-intelligence/video/overview-of-the-microstrategy-embedded-analytics-platform",
+        "src": "https://www.microstrategy.com/content/dam/website-assets/website-images/thumbnails/homepage/thumbnail-overview-of-the-mstr-embedded-analytics-plaform.jpg"
     }
 ]
 
-{/* <CourseButton name="Pfizer Success Spotlight" desc="January 17, 2021" link="https://www.microstrategy.com/en/resources/events/world-2021/on-demand/pfizer-success-spotlight" src={thumbnail1}/>
-          <CourseButton name="Embedding SDK" desc="March 2, 2015" link="https://www.microstrategy.com/en/business-intelligence/video/overview-of-the-microstrategy-embedded-analytics-platform" src={thumbnail2}/>
-          <CourseButton name="Embedding Dossiers onto Web Applications" desc="April 6, 2020" link="https://www.microstrategy.com/en/resources/events/world-2021/on-demand/embedding-dossiers-onto-web-applications" src={thumbnail3}/> */}
+export const experts =
+[
+    {
+        "name": "Spot",
+        "desc": "MicroStrategy Consultant",
+        "src": "https://ichef.bbci.co.uk/news/976/cpsprodpb/EB24/production/_112669106_66030514-b1c2-4533-9230-272b8368e25f.jpg"
+    },
+    {
+        "name": "Dotty",
+        "desc": "MicroStrategy Consultant",
+        "src": "https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=620&quality=45&auto=format&fit=max&dpr=2&s=064680b85e72644d9cc2e69e2763c541"
+    },
+    {
+        "name": "Remington IV",
+        "desc": "MicroStrategy Consultant",
+        "src": "https://ggsc.s3.amazonaws.com/images/made/images/uploads/The_Science-Backed_Benefits_of_Being_a_Dog_Owner_600_400_int_c1-2x.jpg"
+    }
+]
